@@ -105,34 +105,34 @@ for the git clone error refer the setep 8 and install app with git user name and
    sitename MUST end with .localhost for trying deployments locally.
    MariaDB root password: 123
     
-    bench new-site cdivendnext.localhost --no-mariadb-socket  
+    bench new-site dev.ravinder.localhost --no-mariadb-socket  
 
 ### STEP 12: Set bench developer mode on the new site
     
-    bench --site cdivendnext.localhost set-config developer_mode 1
-    bench --site cdivendnext.localhost clear-cache 
+    bench --site dev.ravinder.localhost set-config developer_mode 1
+    bench --site dev.ravinder.localhost clear-cache 
            
 ### STEP 13: Install app in site
   iVendNext
 
-    bench --site cdivendnext.localhost install-app erpnext
+    bench --site dev.ravinder.localhost install-app erpnext
     
   iVend POS
 
-    bench --site cdivendnext.localhost install-app ivendnext_pos   
+    bench --site dev.ravinder.localhost install-app ivendnext_pos   
 
   Payments
 
-    bench --site cdivendnext.localhost install-app payments
+    bench --site dev.ravinder.localhost install-app payments
     
   HRMS 
 
-    bench --site cdivendnext.localhost install-app hrms
+    bench --site dev.ravinder.localhost install-app hrms
 
 ### STEP 14: Start Frappe bench 
     
     bench start
     
-You can now login with user Administrator and the password you choose when creating the site. Your website will now be accessible at location cdivendnext.localhost:8000
+You can now login with user Administrator and the password you choose when creating the site. Your website will now be accessible at location dev.ravinder.localhost:8000
     
    
