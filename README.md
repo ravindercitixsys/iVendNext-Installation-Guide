@@ -49,7 +49,7 @@ A complete Guide to Install Frappe Bench in Windows 11 Using Docker and install 
    Node v15 and v10 are installed. Check with nvm ls. Node v14 is used by default.
                 
     
-### STEP 6: Initilase frappe bench with frappe version 14 and Switch directory
+### STEP 6: Initilase frappe bench with frappe version 15 and Switch directory
     
     bench init --skip-redis-config-generation --frappe-branch version-15 ivend-bench
     cd ivend-bench
