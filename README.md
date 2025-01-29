@@ -133,6 +133,6 @@ for the git clone error refer the setep 8 and install app with git user name and
     
     bench start
     
-You can now login with user Administrator and the password you choose when creating the site. Your website will now be accessible at location dev.ravinder.localhost:8000
+You can now login with user Administrator and the password you choose when creating the site. Your website will now be accessible at location dev.ravinder.localhost:8000/app
     
    
