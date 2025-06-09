@@ -111,7 +111,16 @@ for the git clone error refer the setep 8 and install app with git user name and
     
     bench --site dev.ravinder.localhost set-config developer_mode 1
     bench --site dev.ravinder.localhost clear-cache 
-           
+    
+### (Optional): How to restore a MariaDB backup
+
+    If you’re using bench (the Frappe CLI tool), you can restore the database using:
+    
+    bench --site [sitename] --force restore path/to/backup.sql
+    
+    Example:
+    bench --dev.ravinder.localhost --force restore /backups/20250609_123456-mysite_local-database.sql
+    
 ### STEP 13: Install app in site
   iVendNext
 
