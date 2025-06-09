@@ -118,7 +118,7 @@ If you’re using bench (the Frappe CLI tool), you can restore the database usin
     
     bench --site [sitename] --force restore path/to/backup.sql
     
-Example:
+Example
     bench --dev.ravinder.localhost --force restore /backups/20250609_123456-mysite_local-database.sql
     
 ### STEP 13: Install app in site
