@@ -6,7 +6,7 @@ A complete Guide to Install Frappe Bench in Windows 11 Using Docker and install 
 
     Docker Desktop
     git
-    Wnidows 11 
+    Windows 11 
     VS Code
 
 ### STEP 1: Check Docker version
