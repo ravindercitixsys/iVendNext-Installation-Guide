@@ -114,11 +114,11 @@ for the git clone error refer the setep 8 and install app with git user name and
     
 ### (Optional): How to restore a MariaDB backup
 
-    If you’re using bench (the Frappe CLI tool), you can restore the database using:
+If you’re using bench (the Frappe CLI tool), you can restore the database using:
     
     bench --site [sitename] --force restore path/to/backup.sql
     
-    Example:
+Example:
     bench --dev.ravinder.localhost --force restore /backups/20250609_123456-mysite_local-database.sql
     
 ### STEP 13: Install app in site
